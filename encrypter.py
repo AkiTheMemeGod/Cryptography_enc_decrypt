@@ -111,6 +111,7 @@ def encrypt_folder(folder):
             except Exception as e:
                 print(f'Error encrypting --> {filename}:', e)
 
+# urgent commit
 
 def decrypt_folder(folder):
     import os
